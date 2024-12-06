@@ -1,0 +1,10 @@
+<template>
+  <div class="base-layout grail">
+    <NuxtLoadingIndicator />
+    <AppHeader />
+    <main>
+      <slot />
+    </main>
+    <AppFooter />
+  </div>
+</template>
